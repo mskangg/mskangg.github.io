@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : ""
-  avatar : "https://succulent-guardian-b5d.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Feeb67206-167e-4a06-ad19-03b5f4354f63%2FScreenshot_20170321-231327.png?table=block&id=bdb14a2e-cb40-4b98-a951-b27d9c477446&spaceId=9960a191-57a3-4afb-acc8-0f2220d59b99&width=250&userId=&cache=v2"
+  avatar : "/assets/images/my-profile.png"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
