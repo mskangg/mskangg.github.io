@@ -58,7 +58,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "play();"
+  name   : "Life.play();"
   avatar : "/assets/images/my-profile.png"
   bio    : "현실의 사소한 문제들에서 즐거움을 찾는 개발자 강민수입니다."
   links:
