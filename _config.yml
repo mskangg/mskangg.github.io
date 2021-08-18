@@ -10,11 +10,11 @@ url: https://mskangg.github.io
 github_username: mskangg
 search: true
 words_per_minute: 200
-breadcrumbs: true  # disabled by default
+breadcrumbs: false  # disabled by default 글 네비게이션
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: mskangg/minimal-mistakes
 
 # Outputting
 permalink: /:categories/:title/
