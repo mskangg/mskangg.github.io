@@ -1,5 +1,5 @@
 ---
-title: "태그들"
+title: "#"
 permalink: /tags/
 layout: tags
 author_profile: true

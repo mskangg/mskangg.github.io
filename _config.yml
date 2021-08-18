@@ -13,25 +13,33 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+minimal_mistakes_skin: default
+locale: ko-KR
 title: 기록은 기억을 지배한다.
 email: funnycoding91@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
+  Java, Spring을 주로 쓰는 백엔드 개발자 블로그
+#twitter_username: username
 github_username: mskangg
-minimal_mistakes_skin: default
 search: true
+words_per_minute: 200
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
 # Outputting
+breadcrumbs: true  # disabled by default
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# 댓글
+comments:
+  provider: "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  disqus:
+    shortname: mskangg
 
 include:
   - _pages
@@ -60,7 +68,7 @@ plugins:
 author:
   name   : "Life.play();"
   avatar : "/assets/images/my-profile.png"
-  bio    : "현실의 사소한 문제들에서 즐거움을 찾는 개발자 강민수입니다."
+  bio    : "현실의 사소한 문제들에서 즐거움을 찾는<br>개발자 강민수입니다."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
