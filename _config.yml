@@ -8,6 +8,7 @@ email: funnycoding91@gmail.com
 description: Java, Spring을 주로 쓰는 백엔드 개발자 블로그
 url: https://mskangg.github.io
 github_username: mskangg
+repository: mskangg/mskangg.github.io
 search: true
 words_per_minute: 200
 breadcrumbs: false  # disabled by default 글 네비게이션
@@ -24,9 +25,12 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # 댓글
 comments:
-  provider: disqus # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider: utterances # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname: https-mskangg-github-io
+  utterances:
+    theme: github-light
+    issue_term: pathname
 
 include:
   - _pages
