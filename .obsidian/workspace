@@ -1,0 +1,145 @@
+{
+  "main": {
+    "id": "b8aba3723d7d3867",
+    "type": "split",
+    "children": [
+      {
+        "id": "62851e0a9378f630",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_posts/2022-08-14-effective-java-1.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7003c6fe0ebc762c",
+    "type": "split",
+    "children": [
+      {
+        "id": "b80bfa266763b0af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e3e61300841ea4a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "cf0161490757408e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "75fcab2ba5e8f57b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 375.5
+  },
+  "right": {
+    "id": "60f7e6c8fa52d69c",
+    "type": "split",
+    "children": [
+      {
+        "id": "e72f160437b4b4b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa17a2fa30e2febb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2022-08-14-effective-java-1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3db3d3f5e5541807",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/2022-08-14-effective-java-1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4fe9c95eb06c939a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0452132720951c36",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/2022-08-14-effective-java-1.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "62851e0a9378f630",
+  "lastOpenFiles": [
+    "assets/images/posts/effective-java/main.png",
+    "_posts/2022-08-14-effective-java-1.md",
+    "assets/images/bio-photo.jpg",
+    "assets/images/posts/이펙티브.md",
+    "_posts/2021-08-18-우아한-테크캠프-pro-2기-회고.md",
+    "README.md",
+    "2022-08-14.md",
+    "_pages/404.md",
+    "_pages/about.md",
+    "_pages/year-archive.md"
+  ]
+}
