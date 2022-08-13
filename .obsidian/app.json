@@ -1,3 +1,7 @@
 {
-  "promptDelete": false
+  "promptDelete": false,
+  "defaultViewMode": "source",
+  "livePreview": false,
+  "useTab": false,
+  "tabSize": 3
 }
