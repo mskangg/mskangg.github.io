@@ -3,7 +3,7 @@ title: 이펙티브 자바 톺아보기 - 아이템 1
 categories:
 - 이펙티브 자바 톺아보기 시리즈
 tags:
-[java]
+- java
 ---
 
 ![](/assets/images/posts/effective-java/main.png)
@@ -172,17 +172,20 @@ System.out.println("ofOrderStatuses = " + ofOrderStatuses);
 - 객체를 가볍게 만들어 메모리 사용을 줄이는 패턴.
 - 자주 변하는 속성(또는 외적인 속성, extrinsit)과 변하지 않는 속성(또는 내적인 속성, intrinsit)을 분리하고 재사용하여 메모리 사용을 줄일 수 있다.
 
+![](/assets/images/posts/effective-java/flyweight-factory.png)
+
 ## 완벽 공략 3. 인터페이스에 정적 메소드
 
 ### 자바 8과 9에서 주요 인터페이스의 변화
 
-- 기본 메소드 (default method)와 정적 메소드를 가질 수 있다.
+기본 메소드(default method)와 정적 메소드를 가질 수 있다.
+
 - 기본 메소드
-	- 인터페이스에서 메소드 선언 뿐 아니라, 기본적인 구현체까지 제공할 수 있다.
-	- 기존의 인터페이스를 구현하는 클래스에 새로운 기능을 추가할 수 있다.
+  - 인터페이스에서 메소드 선언 뿐 아니라, 기본적인 구현체까지 제공할 수 있다.
+  - 기존의 인터페이스를 구현하는 클래스에 새로운 기능을 추가할 수 있다.
 - 정적 메소드
-	- 자바 9부터 private static 메소드도 가질 수 있다.
-	- 단, private 필드는 아직도 선언할 수 없다.
+  - 자바 9부터 private static 메소드도 가질 수 있다.
+  - 단, private 필드는 아직도 선언할 수 없다.
 - 질문1) 내림차순으로 정렬하는 Comparator를 만들고 List<Integer>를 정렬하라.
 
 ```java
@@ -208,15 +211,15 @@ numbers.sort(desc.reversed());
 ### 확장 가능한 애플리케이션을 만드는 방법
 
 - 주요 구성 요소
-	- 서비스 제공자 인터페이스 (SPI)와 서비스 제공자 (서비스 구현체)
-	- 서비스 제공자 등록 API (서비스 인터페이스의 구현체를 등록하는 방법)
-	- 서비스 접근 API (서비스의 클라이언트가 서비스 인터페이스의 인스턴스를 가져올 때 사용하는 API)
+  - 서비스 제공자 인터페이스 (SPI)와 서비스 제공자 (서비스 구현체)
+  - 서비스 제공자 등록 API (서비스 인터페이스의 구현체를 등록하는 방법)
+  - 서비스 접근 API (서비스의 클라이언트가 서비스 인터페이스의 인스턴스를 가져올 때 사용하는 API)
 - 다양한 변형
-	- 브릿지 패턴
-	- 의존 객체 주입 프레임워크
-	- java.util.ServiceLoader
-      - [https://docs.oracle.com/javase/tutorial/sound/SPI-intro.html](https://docs.oracle.com/javase/tutorial/sound/SPI-intro.html)
-      - [https://docs.oracle.com/javase/tutorial/ext/basics/spi.html](https://docs.oracle.com/javase/tutorial/ext/basics/spi.html)
+  - 브릿지 패턴
+  - 의존 객체 주입 프레임워크
+  - java.util.ServiceLoader
+    - [https://docs.oracle.com/javase/tutorial/sound/SPI-intro.html](https://docs.oracle.com/javase/tutorial/sound/SPI-intro.html)
+    - [https://docs.oracle.com/javase/tutorial/ext/basics/spi.html](https://docs.oracle.com/javase/tutorial/ext/basics/spi.html)
 
 ## 완벽 공략 5. 리플렉션
 
@@ -225,8 +228,6 @@ numbers.sort(desc.reversed());
 - 클래스로더를 통해 읽어온 클래스 정보(거울에 반사된 정보)를 사용하는 기술
 - 리플렉션을 사용해 클래스를 읽어오거나, 인스턴스를 만들거나, 메소드를 실행하거나, 필드의 값을 가져오거나 변경하는 것이 가능하다.
 - 언제 사용할까?
-   - 특정 애노테이션이 붙어있는 필드 또는 메소드 읽어오기 (JUnit, Spring)
+  - 특정 애노테이션이 붙어있는 필드 또는 메소드 읽어오기 (JUnit, Spring)
   - 특정 이름 패턴에 해당하는 메소드 목록 가져와 호출하기 (getter, setter)
 - [https://docs.oracle.com/javase/tutorial/reflect/](https://docs.oracle.com/javase/tutorial/reflect/)
-
-

@@ -6,13 +6,13 @@ tags:
 - 회고
 ---
 
-![](/assets/images/posts/2021-08-18-우아한-테크캠프-pro-2기-회고/main.png)
+![](/assets/images/posts/2021-08-18-woowahan-tech-camp-pro-remind/main.png)
 
 재직자 대상으로 진행하는 우아한 테크캠프 Pro..!  
 약 **9주 동안의 미션**을 겨우겨우 완수했다...  
 미션을 진행하면서 `회사업무`와 `이직`을 병행하느라 죽을맛이었지만, 정말 9주 동안 원없이 개발만 하면서 살았더니 우리의 `포비`님께서 선물을 주셨다.  
 
-![](/assets/images/posts/2021-08-18-우아한-테크캠프-pro-2기-회고/1.jpeg)
+![](/assets/images/posts/2021-08-18-woowahan-tech-camp-pro-remind/1.jpeg)
 
 감사합니다. 재성님 🙏  
 
@@ -60,7 +60,7 @@ TDD에 관심이 많고 잘 아시는 여러분들은 쉽게 진행하실 수 �
 미션을 진행하면서 궁금했던 것들이나 평소 생각해오던 기술에 대한 생각을 여과없이 소통할 수 있는 소중한 시간이 가장 좋았습니다.  
 하지만, 미션을 진행하면서 시간에 압박받다보니 지치기도 한답니다..  
 
-![](/assets/images/posts/2021-08-18-우아한-테크캠프-pro-2기-회고/2.png)
+![](/assets/images/posts/2021-08-18-woowahan-tech-camp-pro-remind/2.png)
 
 미션 속 하나의 Step 일 뿐인데도 25번의 대화가 오고가곤 합니다.  
 이 자리를 빌어 부족한 저의 코드를 봐주시고 리뷰해주신 리뷰어님들 정말 감사드립니다! 🙏  

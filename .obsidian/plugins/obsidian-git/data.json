@@ -1,6 +1,6 @@
 {
-  "commitMessage": "docs: 블로그 글 임시저장({{numFiles}}) {{date}}",
-  "autoCommitMessage": "docs: 블로그 글 임시저장({{numFiles}}) {{date}}",
+  "commitMessage": "docs: 블로그 글 저장({{numFiles}}) {{date}}",
+  "autoCommitMessage": "docs: 블로그 글 저장({{numFiles}}) {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 0,
   "autoPushInterval": 0,
