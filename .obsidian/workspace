@@ -11,7 +11,7 @@
           "state": {
             "file": "_posts/2022-08-14-effective-java-2.md",
             "mode": "source",
-            "source": true
+            "source": false
           }
         }
       }
@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5
+    "width": 375.5,
+    "collapsed": true
   },
   "right": {
     "id": "60f7e6c8fa52d69c",

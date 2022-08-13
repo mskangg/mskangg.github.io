@@ -452,3 +452,63 @@ public class App {
     }
 }
 ```
+
+### 완벽 공략 9. IllegalArgumentException
+
+잘못된 인자를 넘겨 받았을 때 사용할 수 있는 기본 런타임 예외
+
+```java
+if (deliveryDate.isBefore(LocalDate.now())) {  
+    throw new IllegalArgumentException("deliveryDate can't be earlier than " + LocalDate.now());  
+}
+```
+
+- 질문1) checked exception과 unchecked exception의 차이?
+  - 클라이언트에게 꼭 확인해서 처리하라는 메세지를 남기는 것이 checked
+  - 런타임 중 날 수 있는 익셉션이 unchecked
+    - 매우 많은 예외가 존재하기 때문에 모두 다 체크할 수 없음
+- 질문2) 간혹 메소드 선언부에 unchecked exception을 선언하는 이유는?
+  - 런타임 중 나는 것 중 꼭 확인했으면 하는 것들을 throws 한다.
+- 질문3) checked exception은 왜 사용할까?  
+  - 이 메서드를 호출할 때 꼭 check 하라는 의미
+
+### 완벽 공략 10. 가변인수
+
+여러 인자를 받을 수 있는 가변적인 argument (Var+args)
+
+```java
+public void printNumbers(int... numbers) {  
+    System.out.println(numbers.getClass().getCanonicalName());  
+    System.out.println(numbers.getClass().getComponentType());  
+    Arrays.stream(numbers).forEach(System.out::println);  
+}  
+  
+public static void main(String[] args) {  
+    VarargsSamples samples = new VarargsSamples();  
+    samples.printNumbers(1, 20, 20, 39, 59);  
+}
+```
+
+- 가변인수는 메소드에 오직 하나만 선언할 수 있다.
+- 가변인수는 메소드의 가장 마지막 매개변수가 되어야 한다.
+- 빌더패턴의 메소드 체이닝 방식으로 가변인수를 여러개 받을 수 있다.
+
+```java
+public SampleBuilder strings(String... strings){
+    this.strings = strings;
+    return this;
+}
+
+public SampleBuilder numbers(int... numbers){
+    this.numbers = numbers;
+    return this;
+}
+
+// main
+public static void main(String[] args) {  
+    new SampleBuilder()
+        .strings("1","2","3")
+        .numbers(1,2,3,4,5,6)
+        .build();
+}
+```
