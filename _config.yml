@@ -3,9 +3,9 @@
 # Site settings
 minimal_mistakes_skin: default
 locale: ko-KR
-title: 기록은 기억을 지배한다.
+title: Input 보단 Output
 email: funnycoding91@gmail.com
-description: Java, Spring을 주로 쓰는 백엔드 개발자 블로그
+description: Java, Spring을 주로 다루는 백엔드 개발자 블로그
 url: https://mskangg.github.io
 github_username: mskangg
 repository: mskangg/mskangg.github.io
@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Life.play();"
   avatar : "/assets/images/my-profile.png"
-  bio    : "현실의 사소한 문제들에서 즐거움을 찾는<br>개발자 강민수입니다."
+  bio    : "클린 아키텍쳐와 코드 품질에 관심이 많은<br>개발자 강민수입니다."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
