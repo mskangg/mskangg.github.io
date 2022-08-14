@@ -186,7 +186,7 @@ System.out.println("ofOrderStatuses = " + ofOrderStatuses);
 - 정적 메소드
   - 자바 9부터 private static 메소드도 가질 수 있다.
   - 단, private 필드는 아직도 선언할 수 없다.
-- 질문1) 내림차순으로 정렬하는 Comparator를 만들고 List<Integer>를 정렬하라.
+- 질문1) 내림차순으로 정렬하는 `Comparator`를 만들고 `List<Integer>`를 정렬하라.
 
 ```java
 List<Integer> numbers = new ArrayList();
@@ -200,7 +200,7 @@ Comparator<Integer> desc = (o1, o2) -> o2 - o1;
 numbers.sort(desc);
 ```
 
-- 질문2) 질문1에서 만든 Comparator를 사용해서 오름차순으로 정렬하라.
+- 질문2) 질문1에서 만든 `Comparator`를 사용해서 오름차순으로 정렬하라.
 
 ```java
 numbers.sort(desc.reversed());
