@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2022-08-14-effective-java-2.md",
+            "file": "_posts/2022-08-14-effective-java-1.md",
             "mode": "source",
             "source": false
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5,
-    "collapsed": true
+    "width": 375.5
   },
   "right": {
     "id": "60f7e6c8fa52d69c",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-08-14-effective-java-2.md",
+                "file": "_posts/2022-08-14-effective-java-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-08-14-effective-java-2.md",
+                "file": "_posts/2022-08-14-effective-java-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-08-14-effective-java-2.md"
+                "file": "_posts/2022-08-14-effective-java-1.md"
               }
             }
           },
@@ -140,8 +139,8 @@
   },
   "active": "7182a9c02fbc111f",
   "lastOpenFiles": [
-    "assets/images/posts/effective-java/builder-director.png",
     "_posts/2022-08-14-effective-java-2.md",
+    "assets/images/posts/effective-java/builder-director.png",
     "_posts/2022-08-14-effective-java-1.md",
     "assets/images/posts/effective-java/main.png",
     "assets/images/bio-photo.jpg",

@@ -1,6 +1,7 @@
 # docs: https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 
 # Site settings
+future: true
 minimal_mistakes_skin: default
 locale: ko-KR
 title: Input 보단 Output

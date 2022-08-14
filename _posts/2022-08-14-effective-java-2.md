@@ -300,11 +300,11 @@ public class PizzaTest {
 
 ## 완벽 공략
 
-p15, 자바빈즈, 게터, 세터
-p17, 객체 얼리기 (freezing)
-p17, 빌더 패턴
-p19, IllegalArgumentException
-P21, 가변인수 (varargs) 매개변수를 여러 개 사용할 수 있다.
+p15, 자바빈즈, 게터, 세터  
+p17, 객체 얼리기 (freezing)  
+p17, 빌더 패턴  
+p19, IllegalArgumentException  
+P21, 가변인수 (varargs) 매개변수를 여러 개 사용할 수 있다.  
 
 ### 완벽 공략 6. 자바빈(JavaBean)이란?
 

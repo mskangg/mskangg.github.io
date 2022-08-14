@@ -91,9 +91,9 @@ helloServiceOptional.ifPresent(h -> {
 - p12, 브리지 패턴
 - p12, 의존 객체 주입 프레임워크
 
-## 완벽 공략 1. 열거 타입
+### 완벽 공략 1. 열거 타입
 
-### Enumeration
+#### Enumeration
 
 - 상수 목록을 담을 수 있는 데이터 타입.
 - 특정한 변수가 가질 수 있는 값을 제한할 수 있다. 타입-세이프티 (Type-Safety)를 보장할 수 있다. 싱글톤 패턴을 구현할 때 사용하기도 한다.
@@ -155,28 +155,28 @@ EnumSet<OrderStatus> ofOrderStatuses = EnumSet.of(OrderStatus.SHIPPED, OrderStat
 System.out.println("ofOrderStatuses = " + ofOrderStatuses);
 ```
 
-### HashMap vs EnumMap
+#### HashMap vs EnumMap
 
 - HashMap은 key를 bucket에 저장하고 각 bucket이 linked list를 참조 하고 있음. (LinkedList에는 hash(key)가 같은 element가 들어감)
 - EnumMap의 경우 key로 사용할 값이 제한되어 있으므로, 그 갯수만큼 길이를 가진 array를 선언함. 해당 index에 값을 넣으면 됨.
 
-### HashSet vs EnumSet
+#### HashSet vs EnumSet
 
 - HashSet은 HashMap과 같은데 map의 value가 있다 없다를 표현하는 지시자 같은 값이 들어감.
 - EnumSet은 값이 있다 없다만 표시하면 되니까 EnumMap처럼 array로 구현하지 않고 10101011 같은 bit vector로 구현이 가능.
 
-## 완벽 공략 2. 플라이웨이트 패턴
+### 완벽 공략 2. 플라이웨이트 패턴
 
-### Flyweight (가벼운 체급)
+#### Flyweight (가벼운 체급)
 
 - 객체를 가볍게 만들어 메모리 사용을 줄이는 패턴.
 - 자주 변하는 속성(또는 외적인 속성, extrinsit)과 변하지 않는 속성(또는 내적인 속성, intrinsit)을 분리하고 재사용하여 메모리 사용을 줄일 수 있다.
 
 ![](/assets/images/posts/effective-java/flyweight-factory.png)
 
-## 완벽 공략 3. 인터페이스에 정적 메소드
+### 완벽 공략 3. 인터페이스에 정적 메소드
 
-### 자바 8과 9에서 주요 인터페이스의 변화
+#### 자바 8과 9에서 주요 인터페이스의 변화
 
 기본 메소드(default method)와 정적 메소드를 가질 수 있다.
 
@@ -206,9 +206,9 @@ numbers.sort(desc);
 numbers.sort(desc.reversed());
 ```
 
-## 완벽 공략 4. 서비스 제공자 프레임워크
+### 완벽 공략 4. 서비스 제공자 프레임워크
 
-### 확장 가능한 애플리케이션을 만드는 방법
+#### 확장 가능한 애플리케이션을 만드는 방법
 
 - 주요 구성 요소
   - 서비스 제공자 인터페이스 (SPI)와 서비스 제공자 (서비스 구현체)
@@ -221,9 +221,9 @@ numbers.sort(desc.reversed());
     - [https://docs.oracle.com/javase/tutorial/sound/SPI-intro.html](https://docs.oracle.com/javase/tutorial/sound/SPI-intro.html)
     - [https://docs.oracle.com/javase/tutorial/ext/basics/spi.html](https://docs.oracle.com/javase/tutorial/ext/basics/spi.html)
 
-## 완벽 공략 5. 리플렉션
+### 완벽 공략 5. 리플렉션
 
-### reflection
+#### reflection
 
 - 클래스로더를 통해 읽어온 클래스 정보(거울에 반사된 정보)를 사용하는 기술
 - 리플렉션을 사용해 클래스를 읽어오거나, 인스턴스를 만들거나, 메소드를 실행하거나, 필드의 값을 가져오거나 변경하는 것이 가능하다.
