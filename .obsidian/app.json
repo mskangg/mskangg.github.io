@@ -3,5 +3,13 @@
   "defaultViewMode": "source",
   "livePreview": true,
   "useTab": false,
-  "tabSize": 4
+  "tabSize": 4,
+  "showFrontmatter": true,
+  "strictLineBreaks": true,
+  "readableLineLength": true,
+  "showLineNumber": false,
+  "showIndentGuide": true,
+  "lineWrap": true,
+  "rightToLeft": false,
+  "useMarkdownLinks": true
 }
