@@ -119,4 +119,3 @@ public class Elvis implements Serializable {
 #### 장점 3. 정적 팩터리의 메서드 참조를 공급자(Supplier)로 사용할 수 있다
 
 #### 단점은 public static final 필드를 사용하는 방법과 동일하다
-
