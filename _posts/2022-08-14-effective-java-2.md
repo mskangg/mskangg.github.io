@@ -1,5 +1,5 @@
 ---
-title: 이펙티브 자바 톺아보기 - 아이템 2
+title: 이펙티브 자바 톺아보기 - 아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라
 categories:
 - 이펙티브 자바 톺아보기 시리즈
 tags:
@@ -7,8 +7,6 @@ tags:
 ---
 
 ![](/assets/images/posts/effective-java/main.png)
-
-# 아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라
 
 ## 핵심 정리
 

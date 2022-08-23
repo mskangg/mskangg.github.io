@@ -1,5 +1,5 @@
 ---
-title: 이펙티브 자바 톺아보기 - 아이템 1
+title: 이펙티브 자바 톺아보기 - 아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라
 categories:
 - 이펙티브 자바 톺아보기 시리즈
 tags:
@@ -7,8 +7,6 @@ tags:
 ---
 
 ![](/assets/images/posts/effective-java/main.png)
-
-# 아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라
 
 ## 핵심 정리
 

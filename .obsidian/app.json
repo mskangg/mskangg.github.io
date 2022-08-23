@@ -1,7 +1,7 @@
 {
   "promptDelete": false,
   "defaultViewMode": "source",
-  "livePreview": true,
+  "livePreview": false,
   "useTab": false,
   "tabSize": 4,
   "showFrontmatter": true,
